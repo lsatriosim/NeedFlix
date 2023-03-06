@@ -11,7 +11,6 @@ import com.example.needflix.databinding.ActivityDetailDrakorBinding
 
 class detail_drakor : AppCompatActivity() {
     private lateinit var binding: ActivityDetailDrakorBinding
-//    private lateinit var drakorCast: DrakorCast
 
     companion object {
         const val EXTRA_DRAKOR = "extra_person"
@@ -31,9 +30,9 @@ class detail_drakor : AppCompatActivity() {
         }
 
         if (drakor != null ){
-//            Glide.with(baseContext)
-//                .load(drakor.poster)
-//                .into(binding.drakorPoster)
+            Glide.with(this@detail_drakor)
+                .load(drakor.poster)
+                .into(binding.drakorPoster)
             binding.drakorGenre.text = drakor.genre
             binding.drakorSinopsis.text = drakor.sinopsis
             binding.drakorTitle.text = drakor.title
@@ -45,13 +44,11 @@ class detail_drakor : AppCompatActivity() {
             binding.castNameThree.text = drakor.castName[2]
             binding.castNameFour.text = drakor.castName[3]
             binding.castNameFive.text = drakor.castName[4]
-
-//            drakorCast.castPhoto[drakor.castName[0]]?.let { binding.photoCastOne.setImageResource(it) }
-//            drakorCast.castPhoto[drakor.castName[1]]?.let { binding.photoCastTwo.setImageResource(it) }
-//            drakorCast.castPhoto[drakor.castName[2]]?.let { binding.photoCastThree.setImageResource(it) }
-//            drakorCast.castPhoto[drakor.castName[3]]?.let { binding.photoCastFour.setImageResource(it) }
-//            drakorCast.castPhoto[drakor.castName[4]]?.let { binding.photoCastFive.setImageResource(it) }
-
+            binding.photoCastOne.setImageResource(DrakorCast.castPhoto[drakor.castName[0]])
+            binding.photoCastOne.setImageResource(DrakorCast.castPhoto[drakor.castName[1]])
+            binding.photoCastOne.setImageResource(DrakorCast.castPhoto[drakor.castName[2]])
+            binding.photoCastOne.setImageResource(DrakorCast.castPhoto[drakor.castName[3]])
+            binding.photoCastOne.setImageResource(DrakorCast.castPhoto[drakor.castName[4]])
 
         }
     }

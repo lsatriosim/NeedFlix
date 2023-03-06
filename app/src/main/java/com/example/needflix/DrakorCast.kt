@@ -1,6 +1,6 @@
 package com.example.needflix
 
-class DrakorCast {
+object DrakorCast {
     public val castPhoto = mapOf(
         "Cha Soo-hyang" to R.drawable.cho_soo_yang,
         "Dayoung" to R.drawable.dayoung,
