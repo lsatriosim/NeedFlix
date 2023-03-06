@@ -1,0 +1,170 @@
+<resources>
+    <string name="app_name">NeedFlix</string>
+
+    <string name="title">Judul</string>
+    <string name="jumlahEpisode">Jumlah Episode</string>
+    <string name="productionStudio">Rumah Produksi</string>
+    <string name="genre">Genre</string>
+    <string name="cast">Cast</string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="releaseYear">Tahun Rilis</string>
+    <string name="myName">Liefran Satrio Sim</string>
+    <string name="myEmail">A038DSX1029@bangkit.academy</string>
+    <string name="about">about me</string>
+
+    <string-array name="drakorTitle">
+        <item>Goblin</item>
+        <item>What\'s Wrong with Secretary Kim</item>
+        <item>Vincenzo</item>
+        <item>Descendant of the Sun</item>
+        <item>Love Revolution</item>
+        <item>18 Again</item>
+        <item>Hospital Playlist</item>
+        <item>Bring It on Ghost</item>
+        <item>Who Are You: School 2015</item>
+        <item>Memories of the Alhambra</item>
+    </string-array>
+
+    <string-array name="jumlahEpisode">
+        <item>16</item>
+        <item>16</item>
+        <item>20</item>
+        <item>16 + 3 spesial</item>
+        <item>30</item>
+        <item>16</item>
+        <item>12</item>
+        <item>16</item>
+        <item>16</item>
+        <item>16</item>
+    </string-array>
+
+    <integer-array name="releaseYear">
+        <item>2016</item>
+        <item>2018</item>
+        <item>2021</item>
+        <item>2016</item>
+        <item>2020</item>
+        <item>2020</item>
+        <item>2020</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2019</item>
+    </integer-array>
+
+    <string-array name="productionStudio">
+        <item>Hwa and Dam Pictures, Studio Dragon</item>
+        <item>Bon Factory Worldwide</item>
+        <item>Logos Film</item>
+        <item>Next Entertainment World</item>
+        <item>Kakao M</item>
+        <item>JTBC Studios</item>
+        <item>Egg is Coming, CJ ENM</item>
+        <item>Creative Leaders Group 8</item>
+        <item>School 2015 Culture Industry Co., Ltd. FNC Entertainment</item>
+        <item>Studio Dragon</item>
+    </string-array>
+
+    <string-array name="genre">
+        <item>Fantasi, Romansa, Drama</item>
+        <item>Komedi, Romantis</item>
+        <item>Komedi, Hitam</item>
+        <item>Romantis, Drama</item>
+        <item>Komedi, Romansa, Drama remaja</item>
+        <item>Drama, Fantasi</item>
+        <item>Drama, Romansa, Komedi</item>
+        <item>Horror, Komedi, Misteri, Asmara, Laga</item>
+        <item>Drama remaja, Drama sekolah, Misteri, Pemuda</item>
+        <item>Fiksi Ilmiah, Thriller, Aksi, Romansa</item>
+    </string-array>
+
+    <string-array name="sinopsis">
+        <item>Drama Korea Goblin berkisahn tentang Jenderal Kim Shin yang dikutuk menjalani kehidupan abadi di bumi sebagai seorang Goblin. Korea Selatan di era Dinasti Goryeo, seorang jenderal bernama Kim Shin (Gong Yoo) dituduh berkhianat oleh Raja Muda (Kim Min Jae) yang iri dengan keberhasilannya.</item>
+        <item>KDrama What\'s Wrong with Secretary Kim bercerita tentang seorang wanita bernama Kim Mi So (Park Min Young). Dia bekerja sebagai sekretaris pribadi CEO muda bernama Lee Young Joon (Park Min Young). Mi So telah bekerja pada CEO Young Joon selama kurang lebih 9 tahun.</item>
+        <item>Vincenzo mengisahkan tentang seorang pengacara mafia Italia yang datang ke Korea Selatan setelah pengkhianatan organisasinya dan seorang pengacara veteran yang percaya diri menyingkirkan orang jahat dengan cara yang jahat. Vincenzo adalah seorang pengacara sekaligus mafia yang berasal dari Italia.</item>
+        <item>Berkisah tentang cinta seorang komandan pasukan yang bekerja sebagai penjaga perdamaian PBB yang bernama Kapten Yoo Shi-Jin diperankan oleh Song Joong-Ki dan juga ada seorang dokter wanita bernama Kang Mo-Yeon yang diperankan oleh Song Hye-Kyo. ... Dia langsung jatuh cinta padanya.</item>
+        <item>Cerita Love Revolution berpusat pada kisah cinta dua remaja, Gong Joo Young (Park Ji Hoon) dan Wang Ja Rim (Lee Ruby). Joo Young adalah siswa SMA berusia 17 tahun yang punya kepribadian ceria, tampan, serta berbakat dalam menyanyi dan menari. Ketika ia bertemu dengan Ja Rim, ia jatuh cinta pada pandangan pertama.</item>
+        <item>Jung Da-jung (Kim Ha-neul) dan Hong Dae-young (Yoon Sang-hyun) adalah pasangan menikah dengan dua anak. Tak lama setelah Da-jung mengajukan gugatan cerai, tubuh Dae-young yang berusia 37 tahun berubah sampai dia terlihat seperti saat dia berusia 18 tahun (Lee Do-hyun).</item>
+        <item>Hospital Playlist mengisahkan lima orang dokter yang bersahabat sejak kuliah. Mereka pada akhirnya bekerja di sebuah rumah sakit yang sama. Lima sahabat yakni Lee Ik Joon, Ahn Jung Won, Kim Joon Wan, Yang Seok Hyung, dan Chae Song Hwa, memiliki kehidupan yang sama-sama menarik.</item>
+        <item>Park Bong Pal, yang diperankan oleh Taek merupakan seorang mahasiswa yang tinggal sendirian tanpa kedua orangtuanya. Park Bong Pal juga memiliki kekuatan dapat melihat, berkomunikasi dan menyentuh hantu. Kekuatannya ini ia gunakan sebagai alat mencari uang, Park Bong Pal menjalankan pekerjaannya sebagai pengusir hantu. Bong Pal hanya mengenal seorang biksu yang sering mengunjunginya. Karena kekuatannya ini pula dia dijauhi teman-temannya sejak kecil.</item>
+        <item>Go Eun-byul dan Lee Eun-bi adalah kembar. Kehidupan Lee Eun-bi di panti asuhan sedangkan Go Eun-byul, saudara kembar Eun-bi yang tinggal bersama seorang wanita yang mengadopsi dia. Karena bullying, Eun-bi memutuskan untuk mengakhiri hidupnya tetapi dia diselamatkan oleh saudara kembarnya. Lee Eun-bi menderita amnesia setelah itu, dan ibu dari Eun-byul, ketika ia menemukan dirinya, berpikir bahwa Eun-bi adalah Eun-byul. Sekarang, Eun-bi harus berpura-pura bahwa dia adalah saudara kembarnya, Go Eun-byul.</item>
+        <item>Memories of the Alhambra mengikuti kisah Yoo Jin Woo (Hyun Bin), seorang CEO perusahaan investasi dan teknologi yang datang ke Barcelona, Spanyol untuk urusan bisnis. Mendadak ia mendapat telepon dari pemuda bernama Jung See Joo (Chanyeol EXO) yang memintanya bertemu di Kota Granada untuk menjual game buatannya.</item>
+    </string-array>
+
+    <string-array name="poster_picture">
+        <item>https://o-cdn-cas.sirclocdn.com/parenting/images/Goblin-p04.width-800.format-webp.webp</item>
+        <item>https://upload.wikimedia.org/wikipedia/id/1/10/What%27s_Wrong_with_Secretary_Kim.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/id/c/c6/Vincenzo_poster.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/id/6/6e/DescendantsoftheSun.jpg</item>
+        <item>https://asianwiki.com/images/7/7b/Love_Revolution_Korean_Drama-p1.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/id/3/39/18_Again_main_poster.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/id/7/7a/Hospital_Playlist_poster.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/7/72/Hey_Ghost%2C_Let%27s_Fight_-_Poster.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/id/5/5b/School_2015_poster.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/id/3/34/Memories_of_the_Alhambra.jpg</item>
+    </string-array>
+
+    <integer-array name="castPhoto">
+        <item>@drawable/cho_soo_yang</item>
+        <item>@drawable/dayoung</item>
+        <item>@drawable/gong_yoo</item>
+        <item>@drawable/hwang_in_youp</item>
+        <item>@drawable/hyun_bin</item>
+        <item>@drawable/jeon_mi_do</item>
+        <item>@drawable/jeon_yeo_been</item>
+        <item>@drawable/jin_goo</item>
+        <item>@drawable/jo_jung_suk</item>
+        <item>@drawable/jung_da_eun</item>
+        <item>@drawable/jung_kyung_ho</item>
+        <item>@drawable/jung_so_min</item>
+        <item>@drawable/kang_ki_young</item>
+        <item>@drawable/kim_go_eun</item>
+        <item>@drawable/kim_ha_neul</item>
+        <item>@drawable/kim_hee_jung</item>
+        <item>@drawable/kim_ji_won</item>
+        <item>@drawable/kim_min_seok</item>
+        <item>@drawable/kim_so_hyun</item>
+        <item>@drawable/kwak_dong_yeon</item>
+        <item>@drawable/kwon_yul</item>
+        <item>@drawable/lee_da_wit</item>
+        <item>@drawable/lee_dohyun</item>
+        <item>@drawable/lee_dong_wook</item>
+        <item>@drawable/lee_jae_wook</item>
+        <item>@drawable/lee_ruby</item>
+        <item>@drawable/lee_tae_hwan</item>
+        <item>@drawable/na_cheol</item>
+        <item>@drawable/nam_joo_hyuk</item>
+        <item>@drawable/ok_taec_yeon</item>
+        <item>@drawable/park_chan_yeol</item>
+        <item>@drawable/park_hoon</item>
+        <item>@drawable/park_ji_hoon</item>
+        <item>@drawable/park_min_young</item>
+        <item>@drawable/park_seo_joon</item>
+        <item>@drawable/park_shin_hye</item>
+        <item>@drawable/roh_jeong_eui</item>
+        <item>@drawable/shin_hyun_bin</item>
+        <item>@drawable/song_hye_kyo</item>
+        <item>@drawable/song_joong_ki</item>
+        <item>@drawable/wi_ha_joon</item>
+        <item>@drawable/yoo_in_na</item>
+        <item>@drawable/yoo_yeon_seok</item>
+        <item>@drawable/yook_seung_jae</item>
+        <item>@drawable/younghoon</item>
+    </integer-array>
+
+    <string-array name="castName">
+        <item>Gong Yoo, Lee Dong-Wook, Kim Go-eun, Yoo In-na, Yook Sung-jae</item>
+        <item>Park Seo-joon, Park Min-young, Lee Tae-hwan, Kang Ki-young, Jung So-min</item>
+        <item>Song Joong-ki, Jeon Yeo-been, Ok Taec-yeon, Na Cheol, Kwak Dong-yeon</item>
+        <item>Song Joong-ki, Song Hye-kyo, Jin Goo, Kim Ji-won, Kim Min-seok</item>
+        <item>Park Ji-hoon, Lee Ruby, Younghoon, Dayoung, Jung Da-eun</item>
+        <item>Lee Dohyun, Hwang In-youp, Roh Jeung-eui, Kim Ha-neul, Wi Ha-joon</item>
+        <item>Jo Jung-suk, Jeon Mi-do, Jung Kyung-ho, Yoo Yeon-seok, Shin Hyun Bin</item>
+        <item>Kim So-hyun, Ok Taec-yeon, Kang Ki-young, Kwon Yul, Lee Da-wit</item>
+        <item>Kim So-hyun, Nam Joo-hyuk, Yook Sung-jae, Kim Hee-jung, Cha Soo-hyang</item>
+        <item>Hyun Bin, Park Shin-hye, Lee Jae-wook, Park Chan-yeol, Park Hoon</item>
+    </string-array>
+
+    <string name="list">Show in list</string>
+    <string name="grid">Show in grid</string>
+    <string name="tableDelimiter">:</string>
+</resources>
