@@ -25,7 +25,7 @@ class ListDrakorAdapter(private val listDrakor: ArrayList<Drakor>) : RecyclerVie
     }
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (title,releaseYear,jumlahEpisode,genre,poster,castName,productionStudio,sinopsis) = listDrakor[position]
+        val (title,releaseYear,jumlahEpisode,genre,poster,castName,productionStudio,sinopsis, posterInt) = listDrakor[position]
         Glide.with(holder.itemView.context)
             .load(poster)
             .into(holder.binding.imgItemPoster)

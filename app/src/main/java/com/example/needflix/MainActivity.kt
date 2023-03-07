@@ -42,14 +42,15 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         val dataGenre = resources.getStringArray(R.array.genre)
         val dataSinopsis = resources.getStringArray(R.array.sinopsis)
         val dataCast = resources.getStringArray(R.array.castName)
-        val listPoster = resources.getIntArray(R.array.drakor_poster)
+        val listPoster = resources.obtainTypedArray(R.array.drakor_poster)
 
         //declare new listDrakor
         val listDrakor = ArrayList<Drakor>()
 
         for (i in dataTitle.indices){
             //Assign value to each drakor object
-            val drakor = Drakor(dataTitle[i], dataReleaseYear[i], dataJumlahEpisode[i],dataGenre[i], dataPoster[i], dataCast[i], dataProductionStudio[i], dataSinopsis[i], listPoster[i] )
+            val drakor = Drakor(dataTitle[i], dataReleaseYear[i], dataJumlahEpisode[i],dataGenre[i], dataPoster[i],
+                dataCast[i], dataProductionStudio[i], dataSinopsis[i], listPoster.getResourceId(i, -1) )
             listDrakor.add(drakor)
         }
         return listDrakor
