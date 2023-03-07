@@ -6,12 +6,14 @@ import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
+import android.widget.Button
 import android.widget.Toast
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var rvDrakors: RecyclerView
     private val list = ArrayList<Drakor>()
 
@@ -25,6 +27,9 @@ class MainActivity : AppCompatActivity() {
         list.addAll(getListDrakors())
         showRecyclerList()
 
+        val btn_about:Button = findViewById(R.id.about_page)
+        btn_about.setOnClickListener(this)
+
     }
 
     private fun getListDrakors(): ArrayList<Drakor>{
@@ -37,13 +42,14 @@ class MainActivity : AppCompatActivity() {
         val dataGenre = resources.getStringArray(R.array.genre)
         val dataSinopsis = resources.getStringArray(R.array.sinopsis)
         val dataCast = resources.getStringArray(R.array.castName)
+        val listPoster = resources.getIntArray(R.array.drakor_poster)
 
         //declare new listDrakor
         val listDrakor = ArrayList<Drakor>()
 
         for (i in dataTitle.indices){
             //Assign value to each drakor object
-            val drakor = Drakor(dataTitle[i], dataReleaseYear[i], dataJumlahEpisode[i],dataGenre[i], dataPoster[i], dataCast[i], dataProductionStudio[i], dataSinopsis[i] )
+            val drakor = Drakor(dataTitle[i], dataReleaseYear[i], dataJumlahEpisode[i],dataGenre[i], dataPoster[i], dataCast[i], dataProductionStudio[i], dataSinopsis[i], listPoster[i] )
             listDrakor.add(drakor)
         }
         return listDrakor
@@ -79,5 +85,14 @@ class MainActivity : AppCompatActivity() {
             }
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    override fun onClick(v: View) {
+        when(v.id){
+            R.id.about_page -> {
+                val aboutIntent = Intent(this@MainActivity, about::class.java)
+                startActivity(aboutIntent)
+            }
+        }
     }
 }

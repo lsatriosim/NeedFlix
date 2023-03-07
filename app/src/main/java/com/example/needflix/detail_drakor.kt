@@ -31,9 +31,7 @@ class detail_drakor : AppCompatActivity(), View.OnClickListener {
         }
 
         if (drakor != null ){
-//            Glide.with(this@detail_drakor)
-//                .load(drakor.poster)
-//                .into(binding.drakorPoster)
+            binding.drakorPoster.setImageResource(drakor.posterInt)
             binding.drakorGenre.text = drakor.genre
             binding.drakorSinopsis.text = drakor.sinopsis
             binding.drakorTitle.text = drakor.title
@@ -62,7 +60,7 @@ class detail_drakor : AppCompatActivity(), View.OnClickListener {
                 shareIntent.putExtra(Intent.EXTRA_TEXT,drakor.toString())
                 shareIntent.type = "text/plain"
 
-                val sendIntent = Intent.createChooser(shareIntent, "Share to")
+                val sendIntent = Intent.createChooser(shareIntent, "Share to ")
                 startActivity(sendIntent)
             }
         }

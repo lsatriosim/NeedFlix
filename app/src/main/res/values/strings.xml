@@ -10,7 +10,6 @@
     <string name="releaseYear">Tahun Rilis</string>
     <string name="myName">Liefran Satrio Sim</string>
     <string name="myEmail">A038DSX1029@bangkit.academy</string>
-    <string name="about">about me</string>
 
     <string-array name="drakorTitle">
         <item>Goblin</item>
@@ -24,6 +23,19 @@
         <item>Who Are You: School 2015</item>
         <item>Memories of the Alhambra</item>
     </string-array>
+
+    <integer-array name="drakor_poster">
+        <item>@drawable/goblin</item>
+        <item>@drawable/secretarykim</item>
+        <item>@drawable/vincenzo</item>
+        <item>@drawable/dots</item>
+        <item>@drawable/loverevolution</item>
+        <item>@drawable/again18</item>
+        <item>@drawable/hospitalplaylist</item>
+        <item>@drawable/bringitonghost</item>
+        <item>@drawable/school2015</item>
+        <item>@drawable/alhambra</item>
+    </integer-array>
 
     <string-array name="jumlahEpisode">
         <item>16</item>
@@ -168,4 +180,5 @@
     <string name="grid">Show in grid</string>
     <string name="tableDelimiter">:</string>
     <string name="share">Share</string>
+    <string name="about">About</string>
 </resources>
