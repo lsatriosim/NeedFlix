@@ -36,18 +36,16 @@ class MainActivity : AppCompatActivity() {
         val dataPoster = resources.getStringArray(R.array.poster_picture)
         val dataGenre = resources.getStringArray(R.array.genre)
         val dataSinopsis = resources.getStringArray(R.array.sinopsis)
-        val listCast = resources.getStringArray(R.array.castName)
+        val dataCast = resources.getStringArray(R.array.castName)
 
         //declare new listDrakor
         val listDrakor = ArrayList<Drakor>()
 
         for (i in dataTitle.indices){
             //Assign value to each drakor object
-            val dataCast = listCast[i].split(',')
-            val drakor = Drakor(dataTitle[i], dataReleaseYear[i], dataJumlahEpisode[i],dataGenre[i], dataPoster[i], dataCast.toTypedArray(), dataProductionStudio[i], dataSinopsis[i] )
+            val drakor = Drakor(dataTitle[i], dataReleaseYear[i], dataJumlahEpisode[i],dataGenre[i], dataPoster[i], dataCast[i], dataProductionStudio[i], dataSinopsis[i] )
             listDrakor.add(drakor)
         }
-        Log.d("test", listDrakor[1].castName[0])
         return listDrakor
     }
 

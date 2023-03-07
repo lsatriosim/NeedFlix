@@ -167,4 +167,5 @@
     <string name="list">Show in list</string>
     <string name="grid">Show in grid</string>
     <string name="tableDelimiter">:</string>
+    <string name="share">Share</string>
 </resources>

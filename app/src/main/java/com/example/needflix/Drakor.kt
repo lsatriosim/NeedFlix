@@ -10,7 +10,7 @@ data class Drakor(
     val jumlahEpisode: String,
     val genre: String,
     val poster: String,
-    val castName: Array<String>,
+    val castName: String,
     val productionStudio: String,
     val sinopsis: String
 ) : Parcelable
